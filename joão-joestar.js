@@ -7,7 +7,7 @@ function more() {
   p.innerText = num;
 }
 function less() {
-  num = num - 1;
+  num--
   p.innerText = num;
 }
 function zerar() {
