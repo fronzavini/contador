@@ -1,16 +1,19 @@
 let num = 0;
+function render() {
 const p = document.getElementById("p");
 p.innerText = num;
+}
 
 function more() {
   num = num + 1;
-  p.innerText = num;
+  render()
 }
 function less() {
   num--
-  p.innerText = num;
+  render()
 }
 function zerar() {
   num = 0
-  p.innerText = num
+  render()
 }
+render()
