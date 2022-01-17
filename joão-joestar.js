@@ -10,3 +10,7 @@ function less() {
   num = num - 1;
   p.innerText = num;
 }
+function zerar() {
+  num = 0
+  p.innerText = num
+}
